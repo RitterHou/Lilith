@@ -5,12 +5,12 @@ __author__ = 'derobukal'
 __time__ = '2017/8/2 23:14'
 
 setup(
-    name='lilith',
-    version='0.0.2',
+    name='Lilith',
+    version='0.0.3',
     url='https://github.com/RitterHou/Lilith',
     author='derobukal',
     author_email='derobukal@gmail.com',
-    description='show qrcode in terminal',
+    description='Show qrcode in terminal',
     license='GPL3',
     packages=['lilith'],
     entry_points={
