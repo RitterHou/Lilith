@@ -26,6 +26,10 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     install_requires=[
-        'qrcode>=5.3',
+        'olefile==0.44',
+        'Pillow==4.2.1',
+        'qrcode==5.3',
+        'six==1.10.0'
+
     ],
 )
