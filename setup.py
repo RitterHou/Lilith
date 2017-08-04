@@ -6,7 +6,7 @@ __time__ = '2017/8/2 23:14'
 
 setup(
     name='lilith',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/RitterHou/Lilith',
     author='derobukal',
     author_email='derobukal@gmail.com',
