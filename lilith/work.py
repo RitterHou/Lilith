@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import qrcode
-import sys
 
 __author__ = 'derobukal'
 __time__ = '2017/8/2 23:31'
@@ -9,6 +8,11 @@ STEP = 10  # 步长
 
 
 def get_qrcode_by_text(text):
+    """
+    把给定的字符串生成一个对应的二维码
+    :param text:
+    :return:
+    """
     qr = qrcode.QRCode(
         version=1,
         error_correction=qrcode.constants.ERROR_CORRECT_Q,
@@ -19,10 +23,15 @@ def get_qrcode_by_text(text):
     qr.make(fit=True)
 
     img = qr.make_image()
-    return get_ascii(img)
+    return _get_ascii(img)
 
 
-def get_ascii(image):
+def _get_ascii(image):
+    """
+    从二维码图片生成ascii二维码
+    :param image:
+    :return:
+    """
     string = ''
     image = image.convert('L')  # 转为灰白模式
     width, height = image.size
@@ -35,8 +44,3 @@ def get_ascii(image):
             string += p
         string += '\n'
     return string
-
-
-if __name__ == '__main__':
-    text = get_qrcode_by_text('http://nosuchfield.com')
-    sys.stdout.write(text)
