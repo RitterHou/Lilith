@@ -8,7 +8,7 @@ _A terminal QR Code Generator._
 [![](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/RitterHou/Lilith/blob/master/LICENSE)
 
 Command lilith can help you create a QRCode.
-![](lilith.gif)
+[![asciicast](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj.png)](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj)
 
 ## Requirements
 
