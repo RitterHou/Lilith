@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 import unittest
 
+import sys
+
+from lilith.main import show
 from lilith.work import get_qrcode_by_text
 
 test_qrcode = '''\
@@ -41,3 +44,11 @@ class TestLilith(unittest.TestCase):
         text = 'http://nosuchfield.com'
         qrcode = get_qrcode_by_text(text)
         self.assertEqual(qrcode, test_qrcode, 'unit test failed!')
+
+    def test_one_arg(self):
+        sys.argv = ['main.py']
+        show()
+
+    def test_two_args(self):
+        sys.argv = ['main.py', 'http://nosuchfield.com']
+        show()
