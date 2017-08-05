@@ -19,7 +19,3 @@ def show():
         text = args[1]
         qrcode = get_qrcode_by_text(text)
         print(qrcode)
-
-
-if __name__ == '__main__':
-    show()
