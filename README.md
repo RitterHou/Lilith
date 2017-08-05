@@ -1,4 +1,4 @@
-### Lilith
+# Lilith
 
 A terminal QR Code Generator.
 
