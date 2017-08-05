@@ -7,3 +7,18 @@ _A terminal QR Code Generator._
 [![codecov](https://codecov.io/gh/RitterHou/Lilith/branch/master/graph/badge.svg)](https://codecov.io/gh/RitterHou/Lilith)
 [![](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/RitterHou/Lilith/blob/master/LICENSE)
 
+Command lilith can help you create a QRCode.
+![](lilith.gif)
+
+## Requirements
+
+* python (2.7+ or 3.3+)
+* pip
+
+## Installation
+
+    pip install lilith
+
+## License GPL
+
+Project License can be found [here](https://github.com/RitterHou/Lilith/blob/master/LICENSE).
