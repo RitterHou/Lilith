@@ -14,6 +14,17 @@ python:
 install:
   - pip install .
   - pip install -r requirements.txt
-  - pip install pytest
+  - pip install codecov
+
+notifications:
+  email: false
+
 # command to run tests
-script: python -m pytest
+script:
+  - python -m pytest
+  - cd tests
+  - coverage run lilith_test.py
+
+after_success:
+  - cd tests
+  - codecov
