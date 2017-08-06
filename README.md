@@ -9,7 +9,7 @@ _A terminal QR Code Generator._
 [![codecov](https://codecov.io/gh/RitterHou/Lilith/branch/master/graph/badge.svg)](https://codecov.io/gh/RitterHou/Lilith)
 [![](https://img.shields.io/badge/license-GPL-blue.svg)](https://github.com/RitterHou/Lilith/blob/master/LICENSE)
 
-Command _lilith_ can help you create a QRCode.
+Command *lilith* can help you create a QRCode.
 [![asciicast](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj.png)](https://asciinema.org/a/bSI9XmBlvX1zsc99pkRQt6FIj)
 
 ## Requirements
