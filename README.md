@@ -1,3 +1,5 @@
+[![logo](logo.png)](https://github.com/RitterHou/Lilith)
+
 # Lilith
 
 _A terminal QR Code Generator._
