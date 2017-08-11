@@ -21,6 +21,10 @@ Command **lilith** can help you create a QRCode.
 
     pip install lilith
 
+## Example
+
+    lilith http://nosuchfield.com
+
 ## License GPL
 
 Project License can be found [here](https://github.com/RitterHou/Lilith/blob/master/LICENSE).
